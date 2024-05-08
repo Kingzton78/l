@@ -1,0 +1,89 @@
+@import url("https://fonts.google.com/specimen/Bree+Serif?query=rif");
+
+h3 {
+	font-size: 40px;
+    font-weight: bold;
+    color: #B99470;
+	text-align: center;
+	background-color: #B5C18E;
+	text-decoration: underline; 
+	Width: 100%;
+	
+}
+header {
+  background-color: #F7DCB9;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #1F1F1F;
+  text-decoration: underline;
+  width: 100%;
+  
+}
+span {
+	color: #C57991;
+	text-decoration: underline;
+}
+p {
+	font-size: 23px;
+	color: #1F1F1F;
+	font-weight: bold;
+	text-align: center;
+	font-family: Bree;
+}
+img {
+	width: 20%;
+	line-height: -2; 
+    text-align: center;	
+	letter-spacing: 4;
+	margin-left: 290px;
+	margin-bottom: 70;
+	margin-top: 70;
+}
+body {
+	background-color: #B5C18E;
+	
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width: 100%;
+  height: 100px;
+  background: #DEAC80;
+  padding: 10;
+  letter-spacing: 5px;
+  text-align: center;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+	(li (inline-block:;))
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
